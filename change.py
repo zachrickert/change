@@ -6,10 +6,10 @@ def main():
     print
 
     print("Enter the count of each of each coin count.")
-    quarters = input("Quaters: ") * 0.25
-    dimes = input("Dimes: ") * 0.10
-    nickles = input ("Nickles: ") * 0.05
-    pennies = input ("Pennies: ") * 0.01
+    quarters = float(input("Quaters: ")) * 0.25
+    dimes = float(input("Dimes: ")) * 0.10
+    nickles = float(input ("Nickles: ")) * 0.05
+    pennies = float(input ("Pennies: ")) * 0.01
 
     total = quarters + dimes + nickles + pennies
 
